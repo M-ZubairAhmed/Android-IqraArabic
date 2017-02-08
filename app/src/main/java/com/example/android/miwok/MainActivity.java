@@ -15,16 +15,37 @@
  */
 package com.example.android.miwok;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
+
+    private TextView openNumbersActivity;
+    private TextView openFamilyActivity;
+    private TextView openColorsActivity;
+    private TextView openPhrasesActivity;
+    private Intent openActivitiesIntent;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
-        // Set the content of the activity to use the activity_main.xml layout file
         setContentView(R.layout.activity_main);
+
+        openNumbersActivity = (TextView) findViewById(R.id.numbers_IDxml);
+        openFamilyActivity = (TextView) findViewById(R.id.family_IDxml);
+        openColorsActivity = (TextView) findViewById(R.id.colors_IDxml);
+        openPhrasesActivity = (TextView) findViewById(R.id.phrases_IDxml);
+
+        openNumbersActivity.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openActivitiesIntent = new Intent(MainActivity.this,NumbersActivity.class);
+                startActivity(openActivitiesIntent);
+            }
+        });
     }
+
 }

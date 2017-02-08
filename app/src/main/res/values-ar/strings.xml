@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">قراءة العربية</string>
+    <string name="category_colors">الألوان</string>
+    <string name="category_family">أفراد الأسرة</string>
+    <string name="category_numbers">أعداد</string>
+    <string name="category_phrases">العبارات</string>
+</resources>
