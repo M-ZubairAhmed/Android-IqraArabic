@@ -1,17 +1,16 @@
-package com.example.android.miwok;
+package com.example.android.LearnLanguage;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
-import android.widget.GridView;
 import android.widget.ListView;
 
 import java.util.ArrayList;
 
-import static com.example.android.miwok.RawArrays.getNumbersAlpha;
 
 public class NumbersActivity extends AppCompatActivity {
 
+    RawArrays rawArrays;
     ArrayAdapter<String> numbersAdapter;
     ArrayList<String> numbers_ArList;
 
@@ -19,8 +18,9 @@ public class NumbersActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_numbers);
+        rawArrays = new RawArrays();
 
-        GridView numbersInAlpha_View = (GridView) findViewById(R.id.numbersActivity_XmlID);
+        ListView numbersInAlpha_View = (ListView) findViewById(R.id.numbersActivity_XmlID);
         numbers_ArList = populateArrayList();
         numbersAdapter = new ArrayAdapter<String>(NumbersActivity.this, android.R.layout.simple_list_item_1, numbers_ArList);
 
@@ -29,11 +29,10 @@ public class NumbersActivity extends AppCompatActivity {
     }
 
     protected  ArrayList<String> populateArrayList(){
-        String[] input = getNumbersAlpha();
+        String[] numberDef = rawArrays.getNumbersArray_En();
+        String[] numbersFrn = rawArrays.getNumbersArray_Ar();
+
         ArrayList<String> output = new ArrayList<>();
-        for (int i = 0; i < input.length; i++) {
-            output.add(i,input[i]);
-        }
         return output;
     }
 }
