@@ -7,13 +7,11 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.TextView;
 
-import org.w3c.dom.Text;
-
 import java.util.ArrayList;
 
-public class NumbersSectionAdapter extends ArrayAdapter<NumbersSectionClass> {
+public class NumbersSectionAdapter extends ArrayAdapter<SectionClassNumbers> {
 
-    public NumbersSectionAdapter(Activity context, ArrayList<NumbersSectionClass> arrayListNumbers) {
+    public NumbersSectionAdapter(Activity context, ArrayList<SectionClassNumbers> arrayListNumbers) {
         super(context, 0, arrayListNumbers);
     }
 
@@ -24,7 +22,7 @@ public class NumbersSectionAdapter extends ArrayAdapter<NumbersSectionClass> {
             item = LayoutInflater.from(getContext()).inflate(R.layout.custom_list_layout_numbers, parent ,false);
         }
 
-        NumbersSectionClass currentitem = getItem(position);
+        SectionClassNumbers currentitem = getItem(position);
 
         TextView nativeNum = (TextView) item.findViewById(R.id.nativeLangTextView_xmlid);
         nativeNum.setText(currentitem.getStoreEnNumbers());

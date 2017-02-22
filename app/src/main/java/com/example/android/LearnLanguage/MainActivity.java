@@ -23,16 +23,17 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    private TextView openNumbersActivity;
-    private TextView openFamilyActivity;
-    private TextView openColorsActivity;
-    private TextView openPhrasesActivity;
     private Intent openActivitiesIntent;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        TextView openNumbersActivity;
+        TextView openFamilyActivity;
+        TextView openColorsActivity;
+        TextView openPhrasesActivity;
 
         openNumbersActivity = (TextView) findViewById(R.id.numbers_IDxml);
         openFamilyActivity = (TextView) findViewById(R.id.family_IDxml);
@@ -43,6 +44,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 openActivitiesIntent = new Intent(MainActivity.this,NumbersActivity.class);
+                startActivity(openActivitiesIntent);
+            }
+        });
+
+        openFamilyActivity.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openActivitiesIntent = new Intent(MainActivity.this, FamilyActivity.class);
                 startActivity(openActivitiesIntent);
             }
         });

@@ -1,14 +1,10 @@
 package com.example.android.LearnLanguage;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 import java.util.ArrayList;
 public class NumbersActivity extends AppCompatActivity {
-
-    RawArrays rawArrays;
-    ArrayList<String> numbers_ArList;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,14 +22,14 @@ public class NumbersActivity extends AppCompatActivity {
 
     }
 
-    protected  ArrayList<NumbersSectionClass> populateArrayList(){
-        ArrayList<NumbersSectionClass> arrayList = new ArrayList<>();
+    protected  ArrayList<SectionClassNumbers> populateArrayList(){
+        ArrayList<SectionClassNumbers> arrayList = new ArrayList<>();
         RawArrays rawArrays = new RawArrays();
         String[] nativeNums = rawArrays.getNumbersArray_En();
         String[] foriegnNums = rawArrays.getNumbersArray_Ar();
         int[] nativeLiteralNums = rawArrays.getNumbersArray_rm();
         for (int i = 0; i < 100; i++) {
-            arrayList.add(new NumbersSectionClass(nativeNums[i],foriegnNums[i]));
+            arrayList.add(new SectionClassNumbers(nativeNums[i],foriegnNums[i]));
         }
         return arrayList;
     }

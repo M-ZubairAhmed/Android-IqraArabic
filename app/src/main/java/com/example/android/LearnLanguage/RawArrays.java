@@ -34,6 +34,9 @@ public class RawArrays {
 
     private String[] familyArray_ar = {"ummi","abbu","akh","ukht","ibn","bint"};
 
+    private int[] familyImageArray = {R.drawable.family_mother, R.drawable.family_father, R.drawable.family_older_brother,
+        R.drawable.family_older_sister, R.drawable.family_son, R.drawable.family_daughter};
+
     String[] getNumbersArray_En() {
         return numbersArray_En;
     }
@@ -46,11 +49,15 @@ public class RawArrays {
         return numbersArray_rm;
     }
 
-    public String[] getFamilyArray_en() {
+    String[] getFamilyArray_en() {
         return familyArray_en;
     }
 
-    public String[] getFamilyArray_ar() {
+    String[] getFamilyArray_ar() {
         return familyArray_ar;
+    }
+
+    int[] getFamilyImageArray() {
+        return familyImageArray;
     }
 }
