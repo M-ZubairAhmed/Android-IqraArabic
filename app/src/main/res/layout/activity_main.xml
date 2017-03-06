@@ -16,37 +16,43 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="@color/primary"
     android:layout_height="match_parent"
     tools:context="com.example.android.LearnLanguage.MainActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/tan_background"
+        android:background="@color/primary_light"
         android:orientation="vertical">
 
         <TextView
             android:id="@+id/numbers_IDxml"
+            android:layout_marginBottom="1dp"
+            android:layout_marginTop="1dp"
+            android:background="@color/primary_dark"
             style="@style/CategoryStyle"
-            android:background="@color/category_numbers"
             android:text="@string/category_numbers" />
 
         <TextView
             android:id="@+id/family_IDxml"
+            android:layout_marginBottom="1dp"
+            android:background="@color/primary_dark"
             style="@style/CategoryStyle"
-            android:background="@color/category_family"
             android:text="@string/category_family" />
 
         <TextView
+            android:layout_marginBottom="1dp"
             android:id="@+id/colors_IDxml"
+            android:background="@color/primary_dark"
             style="@style/CategoryStyle"
-            android:background="@color/category_colors"
             android:text="@string/category_colors" />
 
         <TextView
+            android:layout_marginBottom="1dp"
+            android:background="@color/primary_dark"
             android:id="@+id/phrases_IDxml"
             style="@style/CategoryStyle"
-            android:background="@color/category_phrases"
             android:text="@string/category_phrases" />
 
     </LinearLayout>

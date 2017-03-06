@@ -18,10 +18,10 @@ public class RawArrays {
             "wahd weshryn", "athnyn weshryn", "thlatht weshryn", "arbe weshryn", "khmst weshryn", "stt weshryn", "sbet weshryn", "thmanyt weshryn", "eshrwn -nine ", " thlathwn ",
             "wahid wathalathin ", "athnyn wathalathin ", "thlatht wathalathin ", "aribeat wathalathina", "khmasat wthlathyn", "stt wthlathyn", "sbiet wthlathyn", "thmanyt wthlathyn", "tset wthlathyn", "arbeyn",
             "wahd wa'arbieina", "athnyn wa'arbiein", "thlatht wa'arbein", "arbet wa'arbeyn", "khmst wa'arbein", "stt wa'arbaeuna", "sbet warbeun", "thman wa'arbeyn", "arbieun -tset wakhamaswn", "khamsun",
-            "wahd wkhmsyn", "athnyn wkhmsyn", "thlatht wkhmswn", "arbet wkhmsyn", "khmst wkhmswn", "stt wkhmsyn", "sbet wakhmswn", "thmanyt wakhmswn", "khmswn -nine ", " situn ",
-            "wahd wstwn", "athnyn wstyn", "thlatht wstwn", "arbeat wstwn", "khmst wstyn", "stt wstwn", "sbieat wstwn", "thmanyt wstyn", "sttun -nine ", " sabeun ",
-            "wahd wasabeun", "athinnin wasbeyn", "thlath wasbeyn", "arbet wsbeyn", "khmst wsbeyn", "stt wsbeyn", "sbet wasbeyn", "thmanyt wasbeyn", "sbewn -nine ", " thamanun ",
-            "thmanun wahida", "athnin wthmanyn", "thlatht wthmanyn", "arbet wathmanwn", "khmst wthmanyn", "stt wthmanyn", "sbet wthmanyn", "thmanyt wthmanyn", "thmanwn -nine ", " tisein ",
+            "wahd wkhmsyn", "athnyn wkhmsyn", "thlatht wkhmswn", "arbet wkhmsyn", "khmst wkhmswn", "stt wkhmsyn", "sbet wakhmswn", "thmanyt wakhmswn", "khmswn -nine ", "situn ",
+            "wahd wstwn", "athnyn wstyn", "thlatht wstwn", "arbeat wstwn", "khmst wstyn", "stt wstwn", "sbieat wstwn", "thmanyt wstyn", "sttun -nine ", "sabeun ",
+            "wahd wasabeun", "athinnin wasbeyn", "thlath wasbeyn", "arbet wsbeyn", "khmst wsbeyn", "stt wsbeyn", "sbet wasbeyn", "thmanyt wasbeyn", "sbewn -nine ", "thamanun ",
+            "thmanun wahida", "athnin wthmanyn", "thlatht wthmanyn", "arbet wathmanwn", "khmst wthmanyn", "stt wthmanyn", "sbet wthmanyn", "thmanyt wthmanyn", "thmanwn -nine ", "tisein ",
             "wahd wataseina", "wathnan wataseun", "thlatht wtaseyn", "arbet wtasewn", "khmst wtiseyn", "stt w tseyn", "sbet wataseyn", "thmanyt wataseyn", "tseyn -tsemay", "mia"};
 
 
@@ -59,5 +59,9 @@ public class RawArrays {
 
     int[] getFamilyImageArray() {
         return familyImageArray;
+    }
+
+    int getFamilyCount(){
+        return familyArray_ar.length;
     }
 }

@@ -1,7 +1,7 @@
 package com.example.android.LearnLanguage;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.widget.ListView;
 
 import java.util.ArrayList;
@@ -11,21 +11,21 @@ public class FamilyActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_family);
+        setContentView(R.layout.list_layout);
 
-        ListView listView = (ListView) findViewById(R.id.activity_family_xmlid);
-        AdapterCustom adapter = new AdapterCustom(this,populateAdapter());
-        listView.setAdapter(adapter);
+        ListView listView = (ListView) findViewById(R.id.list_view);
+        ArrayAdapterCustom arrayAdapterCustom = new ArrayAdapterCustom(this, populateArrayListFamily());
+        listView.setAdapter(arrayAdapterCustom);
     }
 
-    protected ArrayList<Words> populateAdapter(){
+    protected ArrayList<Words> populateArrayListFamily() {
+        RawArrays data = new RawArrays();
+        String[] arabicWords = data.getFamilyArray_ar();
+        String[] englishWords = data.getFamilyArray_en();
+        int[] pictureRep = data.getFamilyImageArray();
         ArrayList<Words> arrayList = new ArrayList<>();
-        RawArrays rawArrays = new RawArrays();
-        String[] natvTextArray = rawArrays.getFamilyArray_en();
-        String[] fornTextArray = rawArrays.getFamilyArray_ar();
-        int[] imageArray = rawArrays.getFamilyImageArray();
-        for (int i = 0; i < 4; i++) {
-            arrayList.add(new Words(fornTextArray[i],natvTextArray[i],imageArray[i]));
+        for (int i = 0; i < data.getFamilyCount(); i++) {
+            arrayList.add(new Words(englishWords[i], arabicWords[i], pictureRep[i]));
         }
         return arrayList;
     }

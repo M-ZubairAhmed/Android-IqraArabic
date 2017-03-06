@@ -9,27 +9,26 @@ public class NumbersActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_numbers);
+        setContentView(R.layout.list_layout);
 
         //Instantiating view of numbers section xml
-        ListView listView = (ListView) findViewById(R.id.numbersActivity_XmlID);
+        ListView listView = (ListView) findViewById(R.id.list_view);
 
         //numbers adapter instantiated, contructor with context,inbuilt list layout, attached the array list
-        NumbersSectionAdapter numbersAdapter = new NumbersSectionAdapter(this,populateArrayList());
+        ArrayAdapterCustom numbersAdapter = new ArrayAdapterCustom(this,populateArrayList());
 
         //xml list view attached with the adapter.
         listView.setAdapter(numbersAdapter);
 
     }
 
-    protected  ArrayList<SectionClassNumbers> populateArrayList(){
-        ArrayList<SectionClassNumbers> arrayList = new ArrayList<>();
+    protected  ArrayList<Words> populateArrayList(){
+        ArrayList<Words> arrayList = new ArrayList<>();
         RawArrays rawArrays = new RawArrays();
         String[] nativeNums = rawArrays.getNumbersArray_En();
         String[] foriegnNums = rawArrays.getNumbersArray_Ar();
-        int[] nativeLiteralNums = rawArrays.getNumbersArray_rm();
         for (int i = 0; i < 100; i++) {
-            arrayList.add(new SectionClassNumbers(nativeNums[i],foriegnNums[i]));
+            arrayList.add(new Words(nativeNums[i],foriegnNums[i]));
         }
         return arrayList;
     }

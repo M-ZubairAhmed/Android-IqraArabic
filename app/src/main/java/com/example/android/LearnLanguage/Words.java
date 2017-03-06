@@ -1,29 +1,41 @@
 package com.example.android.LearnLanguage;
+
 public class Words {
 
-    private String textInForn;
-    private String textInNatv;
-    private int picOnLeft;
+    private static int NO_IMAGE = -1;
+    private String englishWords;
+    private String arabicWords;
+    private int pictureRep = NO_IMAGE;
 
-    //Constructors of the section class
-    public Words(String textInForn, String textInNatv, int picOnLeft){
-        this.textInForn = textInForn;
-        this.textInNatv = textInNatv;
-        this.picOnLeft = picOnLeft;
-    }
-    public Words(String textInForn, String textInNatv){
-        this.textInNatv = textInNatv;
-        this.textInForn = textInForn;
+    //contructor of the class
+    public Words(String englishWords, String arabicWords) {
+        this.englishWords = englishWords;
+        this.arabicWords = arabicWords;
     }
 
-    //getter methods for the member variable
-    public String getTextInForn() {
-        return textInForn;
+    public Words(String englishWords, String arabicWords, int pictureRep) {
+        this.englishWords = englishWords;
+        this.arabicWords = arabicWords;
+        this.pictureRep = pictureRep;
     }
-    public String getTextInNatv() {
-        return textInNatv;
+
+    //getter for foreign numbers
+    public String getArabicWords() {
+        return arabicWords;
     }
-    public int getPicOnLeft() {
-        return picOnLeft;
+
+    //getter for native numbers
+    public String getEnglishWords() {
+        return englishWords;
     }
+
+    public int getPictureRep() {
+        return pictureRep;
+    }
+
+    public boolean hasPictureRep(){
+        return pictureRep != NO_IMAGE;
+    }
+
+
 }

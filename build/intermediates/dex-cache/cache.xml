@@ -3,48 +3,84 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\zub\Documents\GitHub\Android-Learn-Language\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jar="C:\Users\zub\Documents\GitHub\Android-Learn-Language\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
-        revision="23.0.2"
-        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
-        <dex dex="C:\Users\zub\Documents\GitHub\Android-Learn-Language\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.4.0_1ab45b6201f397417b000ae2c743053b312876c3\classes.dex" />
+        revision="25.0.0"
+        sha1="36260fb2b4d88cec1934f727f834d760af22190c">
+        <dex dex="C:\Users\zub\Documents\GitHub\Android-Learn-Language\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_0589b9303dae84e643ea3d07c958939135ca41c3\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\zub\Documents\GitHub\Android-Learn-Language\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jar="C:\Users\zub\.android\build-cache\c67e2ff02d1f14717c52b47b6f466d941d88a9a0\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="23.0.2"
-        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
-        <dex dex="C:\Users\zub\Documents\GitHub\Android-Learn-Language\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.4.0_09373d6b617ba116b898d511a4b76007577851f4\classes.dex" />
+        revision="25.0.0"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="C:\Users\zub\Documents\GitHub\Android-Learn-Language\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_28b6beb25b7dd16f201584bd42f7996025956b9b\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\zub\Documents\GitHub\Android-Learn-Language\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\10.0.1\jars\classes.jar"
+        jar="C:\Users\zub\.android\build-cache\be68e5e220439196f0bd3900edd7fcb2999c1df1\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="23.0.2"
+        revision="25.0.0"
         sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
-        <dex dex="C:\Users\zub\Documents\GitHub\Android-Learn-Language\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-10.0.1_6547c9106b7b1a9ca74ab3dcccad81b1f4ebf30d\classes.dex" />
+        <dex dex="C:\Users\zub\Documents\GitHub\Android-Learn-Language\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_51501a36ca9e106264b8be93e1f5a556619e5fdd\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\zub\Documents\GitHub\Android-Learn-Language\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jar="C:\Users\zub\.android\build-cache\823691d1a0210495224475f66aa1d9311311370e\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="23.0.2"
-        sha1="9133f32b7dbadfdbd222f15b1510e6d71a7513a6">
-        <dex dex="C:\Users\zub\Documents\GitHub\Android-Learn-Language\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_88c69b0cd6dd99e4df175ec91cab816ada96c5d2\classes.dex" />
+        revision="25.0.0"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="C:\Users\zub\Documents\GitHub\Android-Learn-Language\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b73cb8bb3a98093afc3199a81c395e26096c05a7\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\zub\Documents\GitHub\Android-Learn-Language\app\build\intermediates\exploded-aar\com.android.support\design\23.4.0\jars\classes.jar"
+        jar="C:\Users\zub\.android\build-cache\f42711cc165e49a8c9814a99a4bf790efcc054f4\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="23.0.2"
-        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
-        <dex dex="C:\Users\zub\Documents\GitHub\Android-Learn-Language\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-23.4.0_5a4c8a5928a17d53f8090b64e5f79d7bf37dc7b6\classes.dex" />
+        revision="25.0.0"
+        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
+        <dex dex="C:\Users\zub\Documents\GitHub\Android-Learn-Language\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f206f8d0e22cc745c3f098f161612b6a452acc2d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\zub\.android\build-cache\c73280ba52d6f05b507738a31700ebde3b5e4cc5\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="C:\Users\zub\Documents\GitHub\Android-Learn-Language\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5a098ffb586ce17f9092ca4a0fb26860041d494a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\zub\.android\build-cache\ea787da69180d8849e3e2ee5148aa43d56e1e8a3\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="C:\Users\zub\Documents\GitHub\Android-Learn-Language\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_689262f36d4d4639540cce57221b91b9ededf928\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\zub\.android\build-cache\810b8ebc0162cc0096e1e9ce91d168e78e095782\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e96c6974cf924e7ee3b230e6847d5731423388c9">
+        <dex dex="C:\Users\zub\Documents\GitHub\Android-Learn-Language\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3a8d99fae9d04d357c77327d938a834cfcdb8e42\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\zub\.android\build-cache\25db2f19281ad199e9fddafb9e992c3602825c68\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="C:\Users\zub\Documents\GitHub\Android-Learn-Language\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_342fc72e6871ec15a53573824f1fefe476f57c97\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -57,84 +93,57 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\zub\Documents\GitHub\Android-Learn-Language\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\10.0.1\jars\classes.jar"
+        jar="C:\Users\zub\.android\build-cache\c67e2ff02d1f14717c52b47b6f466d941d88a9a0\output\jars\libs\internal_impl-24.0.0.jar"
         jumboMode="true"
         optimize="true"
-        revision="23.0.2"
-        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
-        <dex dex="C:\Users\zub\Documents\GitHub\Android-Learn-Language\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-10.0.1_071ecd773ccf954cd4036a490972b7038a5feb0c\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\zub\Documents\GitHub\Android-Learn-Language\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
-        <dex dex="C:\Users\zub\Documents\GitHub\Android-Learn-Language\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-10.0.1_644c357fcf3dcdff5e8f8391657e62dce7c627eb\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\zub\Documents\GitHub\Android-Learn-Language\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="d64a504fd26f39385627a0be0c5539f79c444b19">
-        <dex dex="C:\Users\zub\Documents\GitHub\Android-Learn-Language\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_0589b9303dae84e643ea3d07c958939135ca41c3\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\zub\Documents\GitHub\Android-Learn-Language\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
-        <dex dex="C:\Users\zub\Documents\GitHub\Android-Learn-Language\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.0.0_5d28943a866c3f9f6d299fadcc2d2076d3b7eb98\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\zub\Documents\GitHub\Android-Learn-Language\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
-        <dex dex="C:\Users\zub\Documents\GitHub\Android-Learn-Language\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.4.0_9587e5884d36889c714b9c4144dbbcdaf71c5bd7\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\zub\Documents\GitHub\Android-Learn-Language\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="e2185aff89caeb337b1ffc36d5e525d8318e7cfe">
-        <dex dex="C:\Users\zub\Documents\GitHub\Android-Learn-Language\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-auth-10.0.1_06311a978799c10d8644f48426557263ef09a69b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\zub\Documents\GitHub\Android-Learn-Language\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth-base\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="e96c6974cf924e7ee3b230e6847d5731423388c9">
-        <dex dex="C:\Users\zub\Documents\GitHub\Android-Learn-Language\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-auth-base-10.0.1_9cf9fff2e0b428de2b34386c2b5dcb7a3d1c4f54\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\zub\Documents\GitHub\Android-Learn-Language\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\libs\internal_impl-24.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
+        revision="25.0.0"
         sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
-        <dex dex="C:\Users\zub\Documents\GitHub\Android-Learn-Language\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.0.0_112523007707d191fe44f7816fa6f86c65b366eb\classes.dex" />
+        <dex dex="C:\Users\zub\Documents\GitHub\Android-Learn-Language\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.0.0_66063e5686a582d6fbb46a05762168f0a212f399\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\zub\Documents\GitHub\Android-Learn-Language\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.4.0\jars\classes.jar"
+        jar="C:\Users\zub\.android\build-cache\c5d68735aaec9d1d3ac21e6cd356a19204fba06b\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="23.0.2"
+        revision="25.0.0"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="C:\Users\zub\Documents\GitHub\Android-Learn-Language\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0a28d9a0aad327fbdad0085199b544babe3fdf0d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\zub\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.0.0\support-annotations-24.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="C:\Users\zub\Documents\GitHub\Android-Learn-Language\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.0.0_8b3d4927ed1360213613aa0634d9af1b7aeac743\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\zub\Documents\GitHub\Android-Learn-Language\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="C:\Users\zub\Documents\GitHub\Android-Learn-Language\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_88c69b0cd6dd99e4df175ec91cab816ada96c5d2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\zub\.android\build-cache\b6d3664bf1a646d34b6f3208a7fb99e2d29c0e37\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
         sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
-        <dex dex="C:\Users\zub\Documents\GitHub\Android-Learn-Language\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-23.4.0_4854da2c7a1345fd4352ec4d8e371548ff2ac626\classes.dex" />
+        <dex dex="C:\Users\zub\Documents\GitHub\Android-Learn-Language\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_12bf61ab04506d1547057db62cf78e3220b4ce2e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\zub\.android\build-cache\e98fe7798ce654595a3d97c7b9ba1c3b232a1dc7\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e2185aff89caeb337b1ffc36d5e525d8318e7cfe">
+        <dex dex="C:\Users\zub\Documents\GitHub\Android-Learn-Language\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_16c1046872b3e07d113d67ff62ec9298ce385247\classes.dex" />
     </item>
 
 </items>
