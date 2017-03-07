@@ -30,12 +30,15 @@ public class RawData {
             61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90,
             91, 92, 93, 94, 95, 96, 97, 98, 99, 100};
 
-    private String[] familyArray_en = {"mother","father","brother","sister","grand father","grand mother","son","daughter" };
+    private String[] familyArray_en = {"mother","father","brother","sister","grand father","grand mother","son","daughter"};
 
     private String[] familyArray_ar = {"ummi","abbu","akh","ukht","jidd","jidda","ibn","bint"};
 
     private int[] familyImageArray = {R.drawable.family_mother, R.drawable.family_father, R.drawable.family_older_brother,
-        R.drawable.family_older_sister,R.drawable.family_grandfather,R.drawable.family_grandmother, R.drawable.family_son, R.drawable.family_younger_sister};
+            R.drawable.family_older_sister, R.drawable.family_grandfather, R.drawable.family_grandmother, R.drawable.family_son, R.drawable.family_younger_sister};
+
+    private int[] familySoundsArray = {R.raw.family_mother, R.raw.family_father, R.raw.family_brother, R.raw.family_sister, R.raw.family_grandfather, R.raw.family_grandmother,
+            R.raw.family_son, R.raw.family_daughter};
 
     private String[] colorsArray_en = {"white", "black", "gold", "red", "blue", "green", "yellow", "silver", "brown", "orange"};
 
@@ -69,6 +72,10 @@ public class RawData {
 
     protected int[] getFamilyImageArray() {
         return familyImageArray;
+    }
+
+    public int[] getFamilySoundsArray() {
+        return familySoundsArray;
     }
 
     protected int getFamilyCount(){
