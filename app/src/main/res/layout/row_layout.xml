@@ -17,7 +17,7 @@
     <LinearLayout
         android:layout_width="0dp"
         android:paddingStart="@dimen/activity_horizontal_margin"
-        android:paddingEnd="@dimen/activity_horizontal_margin"
+        android:paddingEnd="10dp"
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:gravity="center_vertical"
@@ -39,5 +39,13 @@
             android:textSize="18sp"
             tools:text="Here goes arabic words" />
     </LinearLayout>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="match_parent"
+        android:src="@drawable/play_icon"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="1dp"
+        android:layout_gravity="center_vertical"/>
 
 </LinearLayout>
