@@ -11,8 +11,14 @@ import java.util.ArrayList;
 
 public class FamilyActivity extends AppCompatActivity {
 
-    protected ArrayList<Words> arrayList;
-    MediaPlayer mediaPlayer;
+    private ArrayList<Words> arrayList;
+    private MediaPlayer mediaPlayer;
+    private MediaPlayer.OnCompletionListener onCompletionListener = new MediaPlayer.OnCompletionListener() {
+        @Override
+        public void onCompletion(MediaPlayer mp) {
+            releaseMediaPlayer();
+        }
+    };
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,13 +34,15 @@ public class FamilyActivity extends AppCompatActivity {
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                releaseMediaPlayer();
                 mediaPlayer = MediaPlayer.create(FamilyActivity.this,arrayList.get(position).getSpellSounds());
-                    mediaPlayer.start();
+                mediaPlayer.start();
+                mediaPlayer.setOnCompletionListener(onCompletionListener);
             }
         });
     }
 
-    protected ArrayList<Words> populateArrayListFamily() {
+    private ArrayList<Words> populateArrayListFamily() {
         RawData data = new RawData();
         String[] arabicWords = data.getFamilyArray_ar();
         String[] englishWords = data.getFamilyArray_en();
@@ -44,5 +52,18 @@ public class FamilyActivity extends AppCompatActivity {
             arrayList.add(new Words(englishWords[i], arabicWords[i], pictureRep[i], soundsRep[i]));
         }
         return arrayList;
+    }
+
+    private void releaseMediaPlayer() {
+        if (mediaPlayer != null) {
+            mediaPlayer.release();
+            mediaPlayer = null;
+        }
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        releaseMediaPlayer();
     }
 }
