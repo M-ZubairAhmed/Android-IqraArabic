@@ -42,6 +42,7 @@
 
     <ImageView
         android:layout_width="30dp"
+        android:id="@+id/play_icon_xmlid"
         android:layout_height="match_parent"
         android:src="@drawable/play_icon"
         android:layout_marginEnd="10dp"

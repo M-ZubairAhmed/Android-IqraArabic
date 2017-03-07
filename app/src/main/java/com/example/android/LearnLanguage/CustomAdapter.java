@@ -34,12 +34,20 @@ public class CustomAdapter extends ArrayAdapter<Words> {
         TextView englishText = (TextView) view.findViewById(R.id.english_words_xmlid);
         TextView arabicText = (TextView) view.findViewById(R.id.arabic_words_xmlid);
         ImageView pictureRep = (ImageView) view.findViewById(R.id.picture_rep_xmlid);
+        ImageView soundPic = (ImageView) view.findViewById(R.id.play_icon_xmlid);
         if (currentitem.hasPictureRep()){
             pictureRep.setImageResource(currentitem.getPictureRep());
             pictureRep.setVisibility(View.VISIBLE);
         }
         else {
             pictureRep.setVisibility(View.GONE);
+        }
+
+        if (currentitem.hasSound()){
+            soundPic.setVisibility(View.VISIBLE);
+        }
+        else {
+            soundPic.setVisibility(View.INVISIBLE);
         }
 
         englishText.setText(currentitem.getEnglishWords());
