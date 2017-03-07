@@ -1,5 +1,7 @@
 package com.example.android.LearnLanguage;
 
+import android.content.Context;
+import android.media.AudioManager;
 import android.media.MediaPlayer;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -20,11 +22,21 @@ public class ColorsActivity extends AppCompatActivity {
             releaseMediaPlayer();
         }
     };
+    private AudioManager audioManager;
+    private AudioManager.OnAudioFocusChangeListener audioFocusChangeListener = new AudioManager.OnAudioFocusChangeListener() {
+        @Override
+        public void onAudioFocusChange(int focusChange) {
+            
+        }
+    };
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.list_layout);
+
+        audioManager = (AudioManager) getSystemService(Context.AUDIO_SERVICE);
+
         ListView listView = (ListView) findViewById(R.id.list_view);
         CustomAdapter customAdapter = new CustomAdapter(this,populateColorsList());
         listView.setAdapter(customAdapter);
@@ -33,9 +45,15 @@ public class ColorsActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 releaseMediaPlayer();
-                mediaPlayer = MediaPlayer.create(ColorsActivity.this,arrayList.get(position).getSpellSounds());
-                mediaPlayer.start();
-                mediaPlayer.setOnCompletionListener(onCompletionListener);
+
+                int audioFocusRequest = audioManager.requestAudioFocus(audioFocusChangeListener,
+                        AudioManager.STREAM_MUSIC, AudioManager.AUDIOFOCUS_GAIN_TRANSIENT);
+                if (audioFocusRequest == AudioManager.AUDIOFOCUS_REQUEST_GRANTED){
+                    mediaPlayer = MediaPlayer.create(ColorsActivity.this,arrayList.get(position).getSpellSounds());
+                    mediaPlayer.start();
+                    mediaPlayer.setOnCompletionListener(onCompletionListener);
+                }
+
             }
         });
     }
