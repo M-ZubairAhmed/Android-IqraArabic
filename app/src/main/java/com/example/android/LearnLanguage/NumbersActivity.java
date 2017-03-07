@@ -15,7 +15,7 @@ public class NumbersActivity extends AppCompatActivity {
         ListView listView = (ListView) findViewById(R.id.list_view);
 
         //numbers adapter instantiated, contructor with context,inbuilt list layout, attached the array list
-        ArrayAdapterCustom numbersAdapter = new ArrayAdapterCustom(this,populateArrayList());
+        CustomAdapter numbersAdapter = new CustomAdapter(this,populateArrayList());
 
         //xml list view attached with the adapter.
         listView.setAdapter(numbersAdapter);
@@ -24,9 +24,9 @@ public class NumbersActivity extends AppCompatActivity {
 
     protected  ArrayList<Words> populateArrayList(){
         ArrayList<Words> arrayList = new ArrayList<>();
-        RawArrays rawArrays = new RawArrays();
-        String[] nativeNums = rawArrays.getNumbersArray_En();
-        String[] foriegnNums = rawArrays.getNumbersArray_Ar();
+        RawData rawData = new RawData();
+        String[] nativeNums = rawData.getNumbersArray_En();
+        String[] foriegnNums = rawData.getNumbersArray_Ar();
         for (int i = 0; i < 100; i++) {
             arrayList.add(new Words(nativeNums[i],foriegnNums[i]));
         }

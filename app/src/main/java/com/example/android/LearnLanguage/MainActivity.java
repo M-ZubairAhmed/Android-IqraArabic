@@ -32,13 +32,15 @@ public class MainActivity extends AppCompatActivity {
 
         TextView openNumbersActivity;
         TextView openFamilyActivity;
-        TextView openColorsActivity;
+        final TextView openColorsActivity;
         TextView openPhrasesActivity;
+        TextView openMedia;
 
         openNumbersActivity = (TextView) findViewById(R.id.numbers_IDxml);
         openFamilyActivity = (TextView) findViewById(R.id.family_IDxml);
         openColorsActivity = (TextView) findViewById(R.id.colors_IDxml);
         openPhrasesActivity = (TextView) findViewById(R.id.phrases_IDxml);
+        openMedia = (TextView) findViewById(R.id.media_IDxml);
 
         openNumbersActivity.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -55,6 +57,23 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(openActivitiesIntent);
             }
         });
+
+        openColorsActivity.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openActivitiesIntent = new Intent(MainActivity.this,ColorsActivity.class);
+                startActivity(openActivitiesIntent);
+            }
+        });
+
+        openMedia.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openActivitiesIntent = new Intent(MainActivity.this,MyMedia.class);
+                startActivity(openActivitiesIntent);
+            }
+        });
+
     }
 
 }

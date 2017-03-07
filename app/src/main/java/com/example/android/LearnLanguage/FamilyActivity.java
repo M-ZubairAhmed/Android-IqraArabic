@@ -14,12 +14,12 @@ public class FamilyActivity extends AppCompatActivity {
         setContentView(R.layout.list_layout);
 
         ListView listView = (ListView) findViewById(R.id.list_view);
-        ArrayAdapterCustom arrayAdapterCustom = new ArrayAdapterCustom(this, populateArrayListFamily());
-        listView.setAdapter(arrayAdapterCustom);
+        CustomAdapter customAdapter = new CustomAdapter(this, populateArrayListFamily());
+        listView.setAdapter(customAdapter);
     }
 
     protected ArrayList<Words> populateArrayListFamily() {
-        RawArrays data = new RawArrays();
+        RawData data = new RawData();
         String[] arabicWords = data.getFamilyArray_ar();
         String[] englishWords = data.getFamilyArray_en();
         int[] pictureRep = data.getFamilyImageArray();
