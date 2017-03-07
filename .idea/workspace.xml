@@ -10,27 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8303edab-0973-4422-9872-dc1402fa0722" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/colors_ar_black.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/colors_ar_black.mp3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/colors_ar_blue.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/colors_ar_blue.mp3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/colors_ar_brown.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/colors_ar_brown.mp3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/colors_ar_gold.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/colors_ar_gold.mp3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/colors_ar_green.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/colors_ar_green.mp3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/colors_ar_grey.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/colors_ar_grey.mp3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/colors_ar_orange.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/colors_ar_orange.mp3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/colors_ar_red.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/colors_ar_red.mp3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/colors_ar_white.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/colors_ar_white.mp3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/colors_ar_yellow.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/colors_ar_yellow.mp3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/family_brother.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/family_brother.mp3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/family_daughter.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/family_daughter.mp3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/family_father.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/family_father.mp3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/family_grandfather.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/family_grandfather.mp3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/family_grandmother.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/family_grandmother.mp3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/family_mother.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/family_mother.mp3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/family_sister.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/family_sister.mp3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/family_son.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/family_son.mp3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/goblin.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/goblin.mp3" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/LearnLanguage/FamilyActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/LearnLanguage/FamilyActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/LearnLanguage/ColorsActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/LearnLanguage/ColorsActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/LearnLanguage/MyMedia.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/LearnLanguage/MyMedia.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/media_player.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/media_player.xml" />
     </list>
@@ -64,22 +45,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ColorsActivity.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ColorsActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/LearnLanguage/ColorsActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyMedia.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/LearnLanguage/MyMedia.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
-              <folding />
+            <state relative-caret-position="25">
+              <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+              <folding>
+                <element signature="e#527#686#0" expanded="true" />
+                <element signature="e#685#686#0" expanded="true" />
+                <element signature="e#1088#1530#0" expanded="true" />
+                <element signature="e#1529#1530#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -1750,12 +1726,12 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/android/LearnLanguage/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/android/LearnLanguage/Words.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/android/LearnLanguage/ColorsActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/list_layout.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/android/LearnLanguage/RawData.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/android/LearnLanguage/FamilyActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/media_player.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/android/LearnLanguage/MyMedia.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/android/LearnLanguage/ColorsActivity.java" />
       </list>
     </option>
   </component>
@@ -1915,74 +1891,7 @@
     </navigator>
     <panes>
       <pane id="AndroidView">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Android-Learn-Language" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Android-Learn-Language" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Android-Learn-Language" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Android-Learn-Language" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LearnLanguage" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Android-Learn-Language" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
+        <subPane />
       </pane>
       <pane id="ProjectPane">
         <subPane />
@@ -2773,19 +2682,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/LearnLanguage/ColorsActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/LearnLanguage/MyMedia.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
-          <folding />
+        <state relative-caret-position="493">
+          <caret line="36" column="38" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
+          <folding>
+            <element signature="e#641#1029#0" expanded="true" />
+            <element signature="e#1028#1029#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/LearnLanguage/MyMedia.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/LearnLanguage/ColorsActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
-          <folding />
+        <state relative-caret-position="25">
+          <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+          <folding>
+            <element signature="e#527#686#0" expanded="true" />
+            <element signature="e#685#686#0" expanded="true" />
+            <element signature="e#1088#1530#0" expanded="true" />
+            <element signature="e#1529#1530#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
