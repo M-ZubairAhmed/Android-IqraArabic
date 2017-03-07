@@ -12,13 +12,13 @@ import java.util.ArrayList;
 
 public class ColorsActivity extends AppCompatActivity {
 
-    MediaPlayer mediaPlayer;
+    protected MediaPlayer mediaPlayer;
+    protected ArrayList<Words> arrayList = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.list_layout);
-
         ListView listView = (ListView) findViewById(R.id.list_view);
         CustomAdapter customAdapter = new CustomAdapter(this,populateColorsList());
         listView.setAdapter(customAdapter);
@@ -26,7 +26,7 @@ public class ColorsActivity extends AppCompatActivity {
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                mediaPlayer = MediaPlayer.create(ColorsActivity.this,R.raw.goblin);
+                mediaPlayer = MediaPlayer.create(ColorsActivity.this,arrayList.get(position).getSpellSounds());
                 mediaPlayer.start();
             }
         });
@@ -37,9 +37,9 @@ public class ColorsActivity extends AppCompatActivity {
         String[] english = rawData.getColorsArray_en();
         String[] arabic = rawData.getColorsArray_ar();
         int[] pic = rawData.getColorsImageArray();
-        ArrayList<Words> arrayList = new ArrayList<>();
+        int[] sound = rawData.getColorsSoundsArray();
         for (int i = 0; i < rawData.getColorsCount(); i++) {
-            arrayList.add(new Words(english[i],arabic[i],pic[i]));
+            arrayList.add(new Words(english[i],arabic[i],pic[i],sound[i]));
         }
         return arrayList;
     }

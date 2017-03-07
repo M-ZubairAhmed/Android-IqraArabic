@@ -67,3 +67,4 @@ $RECYCLE.BIN/
 *.lock
 *.bat
 *.gradle
+*.rawproto

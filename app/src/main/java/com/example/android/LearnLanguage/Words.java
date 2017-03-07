@@ -53,8 +53,6 @@ public class Words {
         return arabicWords;
     }
 
-    //getter for native numbers
-
     /**
      * getter method for english words.
      * @return englishWords : returns string value english words.
