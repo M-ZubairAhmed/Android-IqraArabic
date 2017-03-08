@@ -29,11 +29,43 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".NumbersActivity" />
-        <activity android:name=".FamilyActivity" />
-        <activity android:name=".MyMedia" />
-        <activity android:name=".ColorsActivity" />
-        <activity android:name=".PhrasesActivity"></activity>
+
+        <activity
+            android:name=".NumbersActivity"
+            android:label="Numbers in Arabic"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name=".NumbersActivity"
+                android:value=".MainActivity" />
+        </activity>
+
+        <activity
+            android:name=".FamilyActivity"
+            android:label="Family in arabic"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name=".FamilyActivity"
+                android:value=".MainActivity" />
+        </activity>
+
+        <activity
+            android:name=".ColorsActivity"
+            android:label="Colors in arabic"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name=".ColorsActivity"
+                android:value=".MainActivity" />
+        </activity>
+
+        <activity
+            android:name=".PhrasesActivity"
+            android:label="Phrases in arabic"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name=".PhrasesActivity"
+                android:value=".MainActivity" />
+        </activity>
+
     </application>
 
 </manifest>
