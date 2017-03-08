@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2016 The Android Open Source Project
+<?xml version="1.0" encoding="utf-8"?><!-- Copyright (C) 2016 The Android Open Source Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -16,8 +15,8 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="@color/primary"
     android:layout_height="match_parent"
+    android:background="@color/primary"
     tools:context="com.example.android.LearnLanguage.MainActivity">
 
     <LinearLayout
@@ -70,7 +69,6 @@
         <LinearLayout
             android:id="@+id/phrases_IDxml"
             style="@style/CategoryStyle_Root">
-
 
             <TextView
                 style="@style/CategoryStyle"

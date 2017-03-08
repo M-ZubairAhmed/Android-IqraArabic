@@ -7,46 +7,48 @@
 
     <ImageView
         android:id="@+id/picture_rep_xmlid"
-        android:layout_gravity="center"
         android:layout_width="70dp"
-        android:paddingStart="5dp"
-        android:paddingEnd="5dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
         android:background="@color/primary"
-        android:layout_height="80dp"/>
+        android:paddingEnd="5dp"
+        android:paddingStart="5dp" />
 
     <LinearLayout
         android:layout_width="0dp"
-        android:paddingStart="@dimen/activity_horizontal_margin"
-        android:paddingEnd="10dp"
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:gravity="center_vertical"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:paddingEnd="10dp"
+        android:paddingStart="@dimen/activity_horizontal_margin">
+
         <TextView
             android:id="@+id/english_words_xmlid"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="@color/icons"
             android:layout_gravity="start"
+            android:textColor="@color/icons"
             android:textSize="18sp"
             tools:text="Here goes english words" />
+
         <TextView
             android:id="@+id/arabic_words_xmlid"
-            android:layout_gravity="start"
             android:layout_width="match_parent"
-            android:textColor="@color/primary_text"
             android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:textColor="@color/primary_text"
             android:textSize="18sp"
             tools:text="Here goes arabic words" />
     </LinearLayout>
 
     <ImageView
-        android:layout_width="30dp"
         android:id="@+id/play_icon_xmlid"
+        android:layout_width="30dp"
         android:layout_height="match_parent"
-        android:src="@drawable/play_icon"
+        android:layout_gravity="center_vertical"
         android:layout_marginEnd="10dp"
         android:layout_marginStart="1dp"
-        android:layout_gravity="center_vertical"/>
+        android:src="@drawable/play_icon" />
 
 </LinearLayout>
