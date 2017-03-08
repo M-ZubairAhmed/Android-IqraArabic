@@ -24,23 +24,20 @@ import android.widget.TextView;
 public class MainActivity extends AppCompatActivity {
 
     private Intent openActivitiesIntent;
+    private TextView openNumbersActivity;
+    private TextView openFamilyActivity;
+    private TextView openColorsActivity;
+    private TextView openPhrasesActivity;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        TextView openNumbersActivity;
-        TextView openFamilyActivity;
-        final TextView openColorsActivity;
-        TextView openPhrasesActivity;
-        TextView openMedia;
-
         openNumbersActivity = (TextView) findViewById(R.id.numbers_IDxml);
         openFamilyActivity = (TextView) findViewById(R.id.family_IDxml);
         openColorsActivity = (TextView) findViewById(R.id.colors_IDxml);
         openPhrasesActivity = (TextView) findViewById(R.id.phrases_IDxml);
-        openMedia = (TextView) findViewById(R.id.media_IDxml);
 
         openNumbersActivity.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -66,13 +63,14 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        openMedia.setOnClickListener(new View.OnClickListener() {
+        openPhrasesActivity.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                openActivitiesIntent = new Intent(MainActivity.this,MyMedia.class);
+                openActivitiesIntent = new Intent(MainActivity.this, PhrasesActivity.class);
                 startActivity(openActivitiesIntent);
             }
         });
+
 
     }
 
