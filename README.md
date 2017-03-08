@@ -5,8 +5,8 @@ This app displays lists of vocabulary words for the user to learn arabic languag
 
 ##App Overview
 
-![aasdfa](http://i.imgur.com/2XcrZ48m.jpg)
-![Imgur](http://i.imgur.com/wdwiAEym.jpg)
+![IqraArabic Home Screen](http://i.imgur.com/2XcrZ48m.jpg)
+![IqraArabic - sub screen view](http://i.imgur.com/wdwiAEym.jpg)
 
 
 This app is built by taking Udacity Nanodegree's 3rd course - ["MultiScreen App"](https://www.udacity.com/course/android-basics-multi-screen-apps--ud839).
@@ -19,22 +19,28 @@ It contains following features:
 *   Phrases section :- _(underconstruction)_ 
 
 ##Code Overview
-*   
+1.  Use of explicit intents to navigate between pages.
+2.  Back button on action bar functionality to go to parent view
+3.  Storing all the array raw data in a seperate class for ease of access.
+4.  Populating method for respective array list
+1.  Custom Data class with different constructors for array adapter.
+5.  Custom array adapter to show views based on constructor by overriding "getView".
+6.  Single list view and custom array adapter for all layouts.
+7.  Based on the constructor used, array adapter hides or shows applicable views.
+8.  Use of mediaplayer class for streaming audio to speaker
+9.  Judicious release of mediaplayer object when:
+    *   playing of audio file is complete by "OncompleteListerner"
+    *   user switches to another audio file.
+    *   audio focus is lost to another app.
+    *   user navigates to parent screen
+10. Use of AudioManager class to check for audiofocus change.
 
-
-Screenshots
+Specification
 --------------
 
 - Android SDK v23
 - Android Build Tools v23.0.2
 - Android Support Repository v23.3.0
-
-Getting Started
----------------
-
-Support
--------
-
 
 License
 -------
