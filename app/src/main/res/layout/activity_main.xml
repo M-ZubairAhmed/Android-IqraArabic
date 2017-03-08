@@ -26,41 +26,61 @@
         android:background="@color/primary_light"
         android:orientation="vertical">
 
-        <TextView
+        <LinearLayout
             android:id="@+id/numbers_IDxml"
-            android:layout_marginBottom="1dp"
-            android:layout_marginTop="1dp"
-            android:background="@color/primary_dark"
-            style="@style/CategoryStyle"
-            android:text="@string/category_numbers" />
+            style="@style/CategoryStyle_Root">
 
-        <TextView
+            <TextView
+                style="@style/CategoryStyle"
+                android:text="@string/category_numbers" />
+
+            <ImageView
+                style="@style/CategoryStyle_Photo"
+                android:src="@drawable/number_icon" />
+
+        </LinearLayout>
+
+        <LinearLayout
             android:id="@+id/family_IDxml"
-            android:layout_marginBottom="1dp"
-            android:background="@color/primary_dark"
-            style="@style/CategoryStyle"
-            android:text="@string/category_family" />
+            style="@style/CategoryStyle_Root">
 
-        <TextView
-            android:layout_marginBottom="1dp"
+            <TextView
+                style="@style/CategoryStyle"
+                android:text="@string/category_family" />
+
+            <ImageView
+                style="@style/CategoryStyle_Photo"
+                android:src="@drawable/family_icon" />
+        </LinearLayout>
+
+        <LinearLayout
             android:id="@+id/colors_IDxml"
-            android:background="@color/primary_dark"
-            style="@style/CategoryStyle"
-            android:text="@string/category_colors" />
+            style="@style/CategoryStyle_Root">
 
-        <TextView
-            android:layout_marginBottom="1dp"
-            android:background="@color/primary_dark"
+            <TextView
+                style="@style/CategoryStyle"
+                android:text="@string/category_colors" />
+
+            <ImageView
+                style="@style/CategoryStyle_Photo"
+                android:src="@drawable/colors_icon" />
+
+        </LinearLayout>
+
+        <LinearLayout
             android:id="@+id/phrases_IDxml"
-            style="@style/CategoryStyle"
-            android:text="@string/category_phrases" />
+            style="@style/CategoryStyle_Root">
 
-        <TextView
-            android:layout_marginBottom="1dp"
-            android:background="@color/primary_dark"
-            android:id="@+id/media_IDxml"
-            style="@style/CategoryStyle"
-            android:text="Song" />
+
+            <TextView
+                style="@style/CategoryStyle"
+                android:text="@string/category_phrases" />
+
+            <ImageView
+                style="@style/CategoryStyle_Photo"
+                android:src="@drawable/phrases_icon" />
+
+        </LinearLayout>
 
     </LinearLayout>
 </ScrollView>
