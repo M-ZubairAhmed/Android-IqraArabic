@@ -5,6 +5,10 @@ This app displays lists of vocabulary words for the user to learn arabic languag
 
 ##App Overview
 
+![aasdfa](http://i.imgur.com/2XcrZ48m.jpg)
+![Imgur](http://i.imgur.com/wdwiAEym.jpg)
+
+
 This app is built by taking Udacity Nanodegree's 3rd course - ["MultiScreen App"](https://www.udacity.com/course/android-basics-multi-screen-apps--ud839).
 It contains following features:
 *   All arabic words and phrases in roman english as this app is intended to english speaking user intending to learn arabic.
