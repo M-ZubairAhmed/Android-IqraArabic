@@ -72,3 +72,6 @@ build/intermediates/dex-cache/cache.xml
 build/intermediates/dex-cache/cache.xml
 build/intermediates/dex-cache/cache.xml
 build/intermediates/dex-cache/cache.xml
+*.trace
+captures/com.example.android.LearnLanguage_2017.03.08_15.50.hprof
+*.hprof

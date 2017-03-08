@@ -1,10 +1,24 @@
-Miwok App
+**IqraArabic**
 ===================================
 
-This app displays lists of vocabulary words for the user to learn the Miwok language.
-Used in a Udacity course in the Beginning Android Nanodegree.
+This app displays lists of vocabulary words for the user to learn arabic language.
 
-Pre-requisites
+##App Overview
+
+This app is built by taking Udacity Nanodegree's 3rd course - ["MultiScreen App"](https://www.udacity.com/course/android-basics-multi-screen-apps--ud839).
+It contains following features:
+*   All arabic words and phrases in roman english as this app is intended to english speaking user intending to learn arabic.
+*   Sound files linked with words for learning arabic pronounciation.
+*   Numbers section :- translation of numbers from 1 - 100 in english and arabic (roman).
+*   Family relationship words :- translation and sound pronounciation of common relationship terms.
+*   Colors section :- translation and sound pronounciation of common color names.
+*   Phrases section :- _(underconstruction)_ 
+
+##Code Overview
+*   
+
+
+Screenshots
 --------------
 
 - Android SDK v23
@@ -14,17 +28,9 @@ Pre-requisites
 Getting Started
 ---------------
 
-This sample uses the Gradle build system. To build this project, use the
-"gradlew build" command or use "Import Project" in Android Studio.
-
 Support
 -------
 
-- Google+ Community: https://plus.google.com/communities/105153134372062985968
-- Stack Overflow: http://stackoverflow.com/questions/tagged/android
-
-Patches are encouraged, and may be submitted by forking this project and
-submitting a pull request through GitHub. Please see CONTRIBUTING.md for more details.
 
 License
 -------
