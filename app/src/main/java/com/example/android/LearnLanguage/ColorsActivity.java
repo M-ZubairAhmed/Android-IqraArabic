@@ -55,7 +55,6 @@ public class ColorsActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 releaseMediaPlayer();
-
                 int audioFocusRequest = audioManager.requestAudioFocus(audioFocusChangeListener,
                         AudioManager.STREAM_MUSIC, AudioManager.AUDIOFOCUS_GAIN_TRANSIENT);
                 if (audioFocusRequest == AudioManager.AUDIOFOCUS_REQUEST_GRANTED){
@@ -63,7 +62,6 @@ public class ColorsActivity extends AppCompatActivity {
                     mediaPlayer.start();
                     mediaPlayer.setOnCompletionListener(onCompletionListener);
                 }
-
             }
         });
     }
@@ -92,6 +90,12 @@ public class ColorsActivity extends AppCompatActivity {
     @Override
     protected void onStop() {
         super.onStop();
+        releaseMediaPlayer();
+    }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
         releaseMediaPlayer();
     }
 }
