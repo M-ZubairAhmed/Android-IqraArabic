@@ -1,7 +1,7 @@
 *IqraArabic*
 ===================================
 
-This app displays lists of vocabulary words for the user to learn arabic language.
+This app contains lists of common vocabulary words for the user to learn arabic language.
 
 ## App Overview
 
@@ -13,10 +13,9 @@ This app is built by taking inspiration from Udacity Nanodegree's 3rd course sam
 It contains following features:
 *   All arabic words and phrases in roman english as this app is intended to english speaking user intending to learn arabic.
 *   Sound files linked with words for learning arabic pronounciation.
-*   Numbers section :- translation of numbers from 1 - 100 in english and arabic (roman).
-*   Family relationship words :- translation and sound pronounciation of common relationship terms.
-*   Colors section :- translation and sound pronounciation of common color names.
-*   Phrases section :- _(underconstruction)_ 
+*   Translation of numbers from 1 - 100 in english and arabic (roman).
+*   Translation and sound pronounciation of common relationship terms.
+*   Translation and sound pronounciation of common color names. 
 
 ## Code Overview
 1.  Use of explicit intents to navigate between pages.
@@ -39,6 +38,8 @@ Specification
 --------------
 
 - Android SDK v23
+- Minimum Android SDK v18
+- Gradle v3.3
 - Android Build Tools v23.0.2
 - Android Support Repository v23.3.0
 
@@ -56,8 +57,3 @@ the License at
 
 http://www.apache.org/licenses/LICENSE-2.0
 
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
-WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.  See the
-License for the specific language governing permissions and limitations under
-the License.
