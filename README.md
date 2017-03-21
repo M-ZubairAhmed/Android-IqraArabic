@@ -1,24 +1,23 @@
-**IqraArabic**
+*IqraArabic*
 ===================================
 
-This app displays lists of vocabulary words for the user to learn arabic language.
+This app contains lists of common vocabulary words for the user to learn arabic language.
 
-##App Overview
+## App Overview
 
 ![IqraArabic Home Screen](http://i.imgur.com/2XcrZ48m.jpg)
 ![IqraArabic - sub screen view](http://i.imgur.com/wdwiAEym.jpg)
 
 
-This app is built by taking Udacity Nanodegree's 3rd course - ["MultiScreen App"](https://www.udacity.com/course/android-basics-multi-screen-apps--ud839).
+This app is built by taking inspiration from Udacity Nanodegree's 3rd course sample app - ["MultiScreen App"](https://www.udacity.com/course/android-basics-multi-screen-apps--ud839).
 It contains following features:
 *   All arabic words and phrases in roman english as this app is intended to english speaking user intending to learn arabic.
 *   Sound files linked with words for learning arabic pronounciation.
-*   Numbers section :- translation of numbers from 1 - 100 in english and arabic (roman).
-*   Family relationship words :- translation and sound pronounciation of common relationship terms.
-*   Colors section :- translation and sound pronounciation of common color names.
-*   Phrases section :- _(underconstruction)_ 
+*   Translation of numbers from 1 - 100 in english and arabic (roman).
+*   Translation and sound pronounciation of common relationship terms.
+*   Translation and sound pronounciation of common color names. 
 
-##Code Overview
+## Code Overview
 1.  Use of explicit intents to navigate between pages.
 2.  Back button on action bar functionality to go to parent view
 3.  Storing all the array raw data in a seperate class for ease of access.
@@ -39,6 +38,8 @@ Specification
 --------------
 
 - Android SDK v23
+- Minimum Android SDK v18
+- Gradle v3.3
 - Android Build Tools v23.0.2
 - Android Support Repository v23.3.0
 
@@ -56,8 +57,3 @@ the License at
 
 http://www.apache.org/licenses/LICENSE-2.0
 
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
-WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.  See the
-License for the specific language governing permissions and limitations under
-the License.
