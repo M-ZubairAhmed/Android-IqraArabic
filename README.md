@@ -1,15 +1,15 @@
-**IqraArabic**
+*IqraArabic*
 ===================================
 
 This app displays lists of vocabulary words for the user to learn arabic language.
 
-##App Overview
+## App Overview
 
 ![IqraArabic Home Screen](http://i.imgur.com/2XcrZ48m.jpg)
 ![IqraArabic - sub screen view](http://i.imgur.com/wdwiAEym.jpg)
 
 
-This app is built by taking Udacity Nanodegree's 3rd course - ["MultiScreen App"](https://www.udacity.com/course/android-basics-multi-screen-apps--ud839).
+This app is built by taking inspiration from Udacity Nanodegree's 3rd course sample app - ["MultiScreen App"](https://www.udacity.com/course/android-basics-multi-screen-apps--ud839).
 It contains following features:
 *   All arabic words and phrases in roman english as this app is intended to english speaking user intending to learn arabic.
 *   Sound files linked with words for learning arabic pronounciation.
@@ -18,7 +18,7 @@ It contains following features:
 *   Colors section :- translation and sound pronounciation of common color names.
 *   Phrases section :- _(underconstruction)_ 
 
-##Code Overview
+## Code Overview
 1.  Use of explicit intents to navigate between pages.
 2.  Back button on action bar functionality to go to parent view
 3.  Storing all the array raw data in a seperate class for ease of access.
