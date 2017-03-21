@@ -27,6 +27,9 @@
 
     <style name="CategoryStyle_Root">
         <item name="android:layout_width">match_parent</item>
+        <item name="android:clickable">true</item>
+        <item name="android:background">?android:selectableItemBackground</item>
+        <item name="android:drawSelectorOnTop">true</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:orientation">horizontal</item>
     </style>
