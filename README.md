@@ -5,8 +5,8 @@ This app contains lists of common vocabulary words for the user to learn arabic 
 
 ## App Overview
 
-![IqraArabic Home Screen](http://i.imgur.com/2XcrZ48m.jpg)
-![IqraArabic - sub screen view](http://i.imgur.com/wdwiAEym.jpg)
+![IqraArabic Home Screen](http://i.imgur.com/QCS5TGG.png)
+![IqraArabic - sub screen view](http://i.imgur.com/xYDbPNB.png)
 
 
 This app is built by taking inspiration from Udacity Nanodegree's 3rd course sample app - ["MultiScreen App"](https://www.udacity.com/course/android-basics-multi-screen-apps--ud839).
